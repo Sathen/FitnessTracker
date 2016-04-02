@@ -4,13 +4,19 @@
 <html>
 <head>
     <title>Add Time Page</title>
+    <script type="text/javascript" src="jquery-2.2.2.js"/>
 </head>
 <body>
+Language: <a href="?language=en">English</a> | <a href="?language=es">Spanish</a>
+
 <form:form commandName="exercise">
     <table>
         <tr>
             <td><spring:message code="goal.text"/></td>
             <td><form:input path="minutes"/></td>
+            <td>
+                <form:select id = "activities" path="activity"></form:select>
+            </td>
         </tr>
         <tr>
             <td colspan="2">
@@ -19,5 +25,7 @@
         </tr>
     </table>
 </form:form>
+
+<h1>Goal for the day: ${goal.minutes}</h1>
 </body>
 </html>
