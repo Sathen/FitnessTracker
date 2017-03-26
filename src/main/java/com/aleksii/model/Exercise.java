@@ -1,6 +1,8 @@
 package com.aleksii.model;
 
-
+/**
+ * @author aleksii on 26.03.2017.
+ */
 public class Exercise {
 
     private int minutes;
