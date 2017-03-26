@@ -3,9 +3,9 @@ package com.aleksii.model;
 import org.hibernate.validator.constraints.Range;
 
 /**
- * Created by Sathen on 02.04.2016.
+ * @author aleksii on 26.03.2017.
  */
-public class Goal  {
+public class Goal {
     @Range(min = 1, max = 120)
     private int minutes;
 

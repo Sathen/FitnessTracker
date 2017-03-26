@@ -1,17 +1,18 @@
 package com.aleksii.model;
 
 /**
- * Created by Sathen on 02.04.2016.
+ * @author aleksii on 26.03.2017.
  */
+
 public class Activity {
 
-    private String descript;
+    private String desc;
 
-    public String getDescript() {
-        return descript;
+    public String getDesc() {
+        return desc;
     }
 
-    public void setDescript(String descript) {
-        this.descript = descript;
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 }
